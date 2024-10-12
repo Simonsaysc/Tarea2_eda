@@ -1,0 +1,3 @@
+/home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles/imagepro.dir
+/home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles/edit_cache.dir
+/home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles/rebuild_cache.dir
