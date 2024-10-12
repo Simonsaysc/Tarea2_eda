@@ -2,6 +2,7 @@
  Class ListOfRegion
 */
 # include "image/noderegion.hpp"
+# include "image/region.hpp"
 
 namespace image {
 	class ListOfRegion{
@@ -9,7 +10,7 @@ namespace image {
 	NodeRegion* head;
 	public:		
 	ListOfRegion();
-	void Insert();
+	void Insert(Region* region);
 	virtual ~ListOfRegion();
 	};
 }

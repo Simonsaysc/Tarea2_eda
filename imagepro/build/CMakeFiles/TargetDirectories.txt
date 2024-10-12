@@ -1,3 +1,0 @@
-/home/edauandes/eda_cpp/imagepro/build/CMakeFiles/imagepro.dir
-/home/edauandes/eda_cpp/imagepro/build/CMakeFiles/edit_cache.dir
-/home/edauandes/eda_cpp/imagepro/build/CMakeFiles/rebuild_cache.dir
