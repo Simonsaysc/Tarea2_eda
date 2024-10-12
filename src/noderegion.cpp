@@ -7,8 +7,9 @@
 #include <cstring>
 
 namespace image{
-    NodeRegion::NodeRegion(Region* r):region(r), next(nullptr){}
-    Region* NodeRegion::getData(){return region;}
-    void NodeRegion::SetNext(NodeRegion* nxt){next = nxt;}
-    NodeRegion* NodeRegion::GetNext(){return next;}
+    NodeRegion::NodeRegion(Region* r):region(r), next(nullptr){} //constructor
+    Region* NodeRegion::getData(){return region;} //Obtiene toda la región
+    void NodeRegion::SetNext(NodeRegion* nxt){next = nxt;}// Pone próximo nodo
+    NodeRegion* NodeRegion::GetNext(){return next;}//Obtiene próximo nodo
+    NodeRegion::~NodeRegion(){}
 }

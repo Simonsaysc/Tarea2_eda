@@ -7,18 +7,18 @@
 #include <cassert>
 #include <cstring>
 namespace image{
-    ListOfRegion::ListOfRegion():head(nullptr){};
+    ListOfRegion::ListOfRegion():head(nullptr){}; //Constructor
     void ListOfRegion::Insert(Region* region){
-        NodeRegion* NewNode = new NodeRegion(region);
+        NodeRegion* NewNode = new NodeRegion(region);//Declarar región
 
-        if(head == nullptr){
-            head = NewNode;
+        if(head == nullptr){ //Insertar región
+            head = NewNode; //Si la lista está vacía
         }
         else {
-            NewNode->SetNext(head);
+            NewNode->SetNext(head); //Si no está vacía
             head = NewNode;
         }
     };
-    ListOfRegion::~ListOfRegion(){}
+    ListOfRegion::~ListOfRegion(){}//Destructor
 
 }
