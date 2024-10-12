@@ -99,7 +99,7 @@ namespace image{
         return im;
     }
 
-    ListOfRegions Image::getRegions(){}
+    ListOfRegion Image::getRegions(){}
 
 }
 

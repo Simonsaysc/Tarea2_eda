@@ -3,6 +3,7 @@
  */
 
 #pragma once
+#include "image/listofregion.hpp"
 #include <string>
 
 namespace image {
@@ -23,7 +24,7 @@ namespace image {
 		void threshold(); 
     	int getValue(int row, int col);
 		void show();
-		//ListOfRegions getRegions()
+		ListOfRegion getRegions();
         virtual ~Image(); 
 		static Image* readImage(std::string &path);        
 	};
