@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edauandes/edaT2/Tarea2_eda
+CMAKE_SOURCE_DIR = /home/edauandes/Tarea2_eda
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edauandes/edaT2/Tarea2_eda/build
+CMAKE_BINARY_DIR = /home/edauandes/Tarea2_eda/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/imagepro.dir/depend.make
@@ -72,30 +72,30 @@ include CMakeFiles/imagepro.dir/flags.make
 CMakeFiles/imagepro.dir/imagepro.cpp.o: CMakeFiles/imagepro.dir/flags.make
 CMakeFiles/imagepro.dir/imagepro.cpp.o: ../imagepro.cpp
 CMakeFiles/imagepro.dir/imagepro.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imagepro.dir/imagepro.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/imagepro.cpp.o -MF CMakeFiles/imagepro.dir/imagepro.cpp.o.d -o CMakeFiles/imagepro.dir/imagepro.cpp.o -c /home/edauandes/edaT2/Tarea2_eda/imagepro.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/imagepro.dir/imagepro.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/imagepro.cpp.o -MF CMakeFiles/imagepro.dir/imagepro.cpp.o.d -o CMakeFiles/imagepro.dir/imagepro.cpp.o -c /home/edauandes/Tarea2_eda/imagepro.cpp
 
 CMakeFiles/imagepro.dir/imagepro.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/imagepro.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/edaT2/Tarea2_eda/imagepro.cpp > CMakeFiles/imagepro.dir/imagepro.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/imagepro.cpp > CMakeFiles/imagepro.dir/imagepro.cpp.i
 
 CMakeFiles/imagepro.dir/imagepro.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/imagepro.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/edaT2/Tarea2_eda/imagepro.cpp -o CMakeFiles/imagepro.dir/imagepro.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/imagepro.cpp -o CMakeFiles/imagepro.dir/imagepro.cpp.s
 
 CMakeFiles/imagepro.dir/src/image.cpp.o: CMakeFiles/imagepro.dir/flags.make
 CMakeFiles/imagepro.dir/src/image.cpp.o: ../src/image.cpp
 CMakeFiles/imagepro.dir/src/image.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imagepro.dir/src/image.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/image.cpp.o -MF CMakeFiles/imagepro.dir/src/image.cpp.o.d -o CMakeFiles/imagepro.dir/src/image.cpp.o -c /home/edauandes/edaT2/Tarea2_eda/src/image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/imagepro.dir/src/image.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/image.cpp.o -MF CMakeFiles/imagepro.dir/src/image.cpp.o.d -o CMakeFiles/imagepro.dir/src/image.cpp.o -c /home/edauandes/Tarea2_eda/src/image.cpp
 
 CMakeFiles/imagepro.dir/src/image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/image.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/edaT2/Tarea2_eda/src/image.cpp > CMakeFiles/imagepro.dir/src/image.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/image.cpp > CMakeFiles/imagepro.dir/src/image.cpp.i
 
 CMakeFiles/imagepro.dir/src/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/image.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/edaT2/Tarea2_eda/src/image.cpp -o CMakeFiles/imagepro.dir/src/image.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/image.cpp -o CMakeFiles/imagepro.dir/src/image.cpp.s
 
 # Object files for target imagepro
 imagepro_OBJECTS = \
@@ -109,7 +109,7 @@ imagepro: CMakeFiles/imagepro.dir/imagepro.cpp.o
 imagepro: CMakeFiles/imagepro.dir/src/image.cpp.o
 imagepro: CMakeFiles/imagepro.dir/build.make
 imagepro: CMakeFiles/imagepro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imagepro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imagepro"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imagepro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +121,6 @@ CMakeFiles/imagepro.dir/clean:
 .PHONY : CMakeFiles/imagepro.dir/clean
 
 CMakeFiles/imagepro.dir/depend:
-	cd /home/edauandes/edaT2/Tarea2_eda/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edauandes/edaT2/Tarea2_eda /home/edauandes/edaT2/Tarea2_eda /home/edauandes/edaT2/Tarea2_eda/build /home/edauandes/edaT2/Tarea2_eda/build /home/edauandes/edaT2/Tarea2_eda/build/CMakeFiles/imagepro.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edauandes/Tarea2_eda/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edauandes/Tarea2_eda /home/edauandes/Tarea2_eda /home/edauandes/Tarea2_eda/build /home/edauandes/Tarea2_eda/build /home/edauandes/Tarea2_eda/build/CMakeFiles/imagepro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/imagepro.dir/depend
 

@@ -98,8 +98,5 @@ namespace image{
         assert(im != nullptr);
         return im;
     }
-
     ListOfRegion Image::getRegions(){}
-
 }
-

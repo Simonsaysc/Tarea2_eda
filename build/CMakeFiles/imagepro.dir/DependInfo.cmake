@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/edauandes/edaT2/Tarea2_eda/imagepro.cpp" "CMakeFiles/imagepro.dir/imagepro.cpp.o" "gcc" "CMakeFiles/imagepro.dir/imagepro.cpp.o.d"
-  "/home/edauandes/edaT2/Tarea2_eda/src/image.cpp" "CMakeFiles/imagepro.dir/src/image.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/image.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/imagepro.cpp" "CMakeFiles/imagepro.dir/imagepro.cpp.o" "gcc" "CMakeFiles/imagepro.dir/imagepro.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/image.cpp" "CMakeFiles/imagepro.dir/src/image.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/image.cpp.o.d"
   )
 
 # Targets to which this target links.

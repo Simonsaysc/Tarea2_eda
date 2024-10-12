@@ -1,4 +1,4 @@
-# Install script for directory: /home/edauandes/edaT2/Tarea2_eda
+# Install script for directory: /home/edauandes/Tarea2_eda
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/edauandes/edaT2/Tarea2_eda/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/edauandes/Tarea2_eda/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
