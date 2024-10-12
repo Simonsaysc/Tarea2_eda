@@ -20,7 +20,14 @@ namespace image{
             tail = NewNode;           
         }
     };
-    ListOfRegion::~ListOfRegion(){}//Destructor
+    ListOfRegion::~ListOfRegion(){
+        NodeRegion* current = head;
+        while(current != head){
+            NodeRegion* next = current-> GetNext();
+            delete current -> getData();
+            delete current;
+        }
+    }//Destructor
 
     void ListOfRegion::showRegions(){
         NodeRegion* current = head;
