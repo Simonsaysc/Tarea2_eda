@@ -1,6 +1,6 @@
 /* implementation of the class Point2D
  */
-# include "image/point2d.hpp"
+#include "image/point2D.hpp"
 #include <fstream>
 #include <iostream>
 #include <cassert>
@@ -10,7 +10,7 @@
 
     }
 
-	Point2D(int _x, int _y): x(_x), y(_y){
+	Point2D::Point2D(int _x, int _y): x(_x), y(_y){
 
     }
     void Point2D::setX(int _x){
@@ -25,7 +25,7 @@
     int Point2D::getY() const {
         return y;
     }
-    virtual Point_2D::~Point2D(){
+    Point2D::~Point2D(){
         
     }
  }
