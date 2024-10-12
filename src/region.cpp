@@ -7,6 +7,13 @@
 
 namespace image {
     Region::Region(int _id):id(_id), size(0){}
+
+    //sobrecarga
+    Region::Region(int _id, std::vector<Point2D> pts): id(_id), size(pts.size()), points(){
+        for(const auto& point : pts){
+            points.addPoint(point.getX(), point.getY());//agregar los puntos
+        }
+    }
     void Region::addPoint(int x, int y){
         points.addPoint(x,y); //agregar punto a la lista enlazada
         size++;//incrementar tamaño

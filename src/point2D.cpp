@@ -19,10 +19,10 @@
     void Point2D::setY(int _y){
         y = _y;
     }
-    int Point2D::getX(){
+    int Point2D::getX() const {
         return x;
     }
-    int Point2D::getY(){
+    int Point2D::getY() const {
         return y;
     }
     virtual Point_2D::~Point2D(){
