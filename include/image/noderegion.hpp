@@ -9,8 +9,9 @@ namespace image {
 	Region* region;
 	NodeRegion* next;
 	public:
-	NodeRegion();
-	void SetNext();
+	NodeRegion(Region* reg);
+	void SetNext(NodeRegion* nxt);
+	Region* getData();
 	NodeRegion* GetNext();
 	};
 }
