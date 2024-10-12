@@ -33,7 +33,7 @@ namespace image{
         NodePoint2D* current = head;
 
         while (current){
-            points.push_back(current->point)//copiar cada punto al vector
+            points.push_back(current->point);//copiar cada punto al vector
             current = current->next;
         }
         return points;
