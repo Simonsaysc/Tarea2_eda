@@ -17,6 +17,7 @@ namespace image {
 		int height;
 		int th_value;
 		uchar* data;
+		void exploreRegion(int row, int col, bool** visited, Region& region);
 	public:
 		Image();
 		Image(int w, int h);
