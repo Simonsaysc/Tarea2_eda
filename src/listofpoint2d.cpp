@@ -9,7 +9,7 @@
 namespace image{
     ListOfPoint2D::ListOfPoint2D():head(nullptr), tail(nullptr){}
 
-    void ListOfPoint2D::Insert(int x, int y){
+    void ListOfPoint2D::addPoint(int x, int y){
         NodePoint2D* newNode = new NodePoint2D(x, y);
         if(!head){ //si la lista está vacía 
             head = tail = newNode;

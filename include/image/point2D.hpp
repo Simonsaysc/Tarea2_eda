@@ -2,7 +2,7 @@
  Class Point2D
 */
 
-
+#pragma once
 namespace image {
 	class Point2D{
 	private:

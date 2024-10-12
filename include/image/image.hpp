@@ -2,6 +2,7 @@
  * Class Image
  */
 
+#pragma once
 #include <string>
 
 namespace image {

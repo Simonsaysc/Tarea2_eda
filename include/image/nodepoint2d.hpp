@@ -1,6 +1,7 @@
 /*
  Class NodePoint2D
 */
+#pragma once
 #include "image/point2D.hpp"
 
 namespace image {

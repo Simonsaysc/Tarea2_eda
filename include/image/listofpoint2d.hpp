@@ -1,7 +1,8 @@
 /*
  Class ListOfPoint2D
 */
-# include "image/nodepoint2d.hpp"
+#pragma once
+#include "image/nodepoint2d.hpp"
 #include <vector>
 
 namespace image {
@@ -13,7 +14,7 @@ namespace image {
 	NodePoint2D* tail;//ptr al último de la lista
 	public:		
 	ListOfPoint2D(); //constructor
-	void Insert(int x, int y);//agrega un punto a la lista
+	void addPoint(int x, int y);//agrega un punto a la lista
 	void ShowPoints();//mostrar puntos en la consola
 	std::vector<Point2D> getPoints();//devuelve los puntos del vector
 	~ListOfPoint2D();//destructor

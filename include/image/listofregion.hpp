@@ -1,6 +1,7 @@
 /*
  Class ListOfRegion
 */
+#pragma once
 # include "image/noderegion.hpp"
 # include "image/region.hpp"
 

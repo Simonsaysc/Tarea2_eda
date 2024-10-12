@@ -1,6 +1,7 @@
 /*
  Class NodeRegion
 */
+#pragma once
 # include "image/region.hpp"
 
 namespace image {

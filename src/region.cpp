@@ -1,4 +1,5 @@
-# include "image/region.hpp"
+#include "image/region.hpp"
+#include "nodepoint2d.hpp"
 #include <fstream>
 #include <iostream>
 #include <cassert>
@@ -20,7 +21,7 @@ namespace image {
         return size;
     }
     std::vector<Point2D> Region::getPoints(){
-        return point.getPoints();//Devuelve los puntos como vector
+        return points.getPoints();//Devuelve los puntos como vector
     }
     Region::~Region(){
         //No hay q liberar nada pq points (ListOfPoint2D) ya maneja su propia memoria

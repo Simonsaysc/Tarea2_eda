@@ -1,6 +1,7 @@
 /*
  Class Region
 */
+#pragma once
 # include "image/listofpoint2d.hpp"
 namespace image {
 	class Region{
