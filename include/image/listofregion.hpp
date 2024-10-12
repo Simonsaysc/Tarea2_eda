@@ -9,6 +9,7 @@ namespace image {
 	class ListOfRegion{
 	private:
 	NodeRegion* head;
+	NodeRegion* tail;
 	public:		
 	ListOfRegion();
 	void Insert(Region* region);

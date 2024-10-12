@@ -13,13 +13,11 @@ namespace image{
 
         if(head == nullptr){ //Insertar región
             head = NewNode; //Si la lista está vacía
+            tail = NewNode;
         }
         else {
-            NodeRegion* current = head;
-            while(current -> GetNext() != nullptr){
-                current = current -> GetNext();
-            }
-            current -> SetNext(NewNode);
+            tail -> SetNext(NewNode);
+            tail = NewNode;           
         }
     };
     ListOfRegion::~ListOfRegion(){}//Destructor
