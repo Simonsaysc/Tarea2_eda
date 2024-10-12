@@ -12,6 +12,7 @@ namespace image {
 	public:		
 	ListOfRegion();
 	void Insert(Region* region);
+	void showRegions();
 	virtual ~ListOfRegion();
 	};
 }

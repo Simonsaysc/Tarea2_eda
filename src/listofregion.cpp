@@ -15,10 +15,21 @@ namespace image{
             head = NewNode; //Si la lista está vacía
         }
         else {
-            NewNode->SetNext(head); //Si no está vacía
-            head = NewNode;
+            NodeRegion* current = head;
+            while(current -> GetNext() != nullptr){
+                current = current -> GetNext();
+            }
+            current -> SetNext(NewNode);
         }
     };
     ListOfRegion::~ListOfRegion(){}//Destructor
 
+    void ListOfRegion::showRegions(){
+        NodeRegion* current = head;
+        while(current != nullptr){
+            Region *region = current -> getData();
+            region -> showRegion();
+            current = current-> GetNext();
+        }
+    }
 }
