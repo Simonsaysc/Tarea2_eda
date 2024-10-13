@@ -30,6 +30,7 @@ namespace image {
     std::vector<Point2D> Region::getPoints(){
         return points.getPoints();//Devuelve los puntos como vector
     }
+    int Region::getId(){return id;}
     Region::~Region(){
         //No hay q liberar nada pq points (ListOfPoint2D) ya maneja su propia memoria
         std::cout<<"Destruyendo región id" << id <<std::endl;

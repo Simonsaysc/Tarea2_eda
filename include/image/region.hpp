@@ -15,6 +15,7 @@ namespace image {
 		void addPoint(int x, int y);//Agrega un punto a la región
 		void showRegion();//muestra la región en la consola
 		int getSize();//tamaño de la región
+		int getId();
 		std::vector<Point2D> getPoints(); //devuelve un vector de puntos
         ~Region(); 		
 	};

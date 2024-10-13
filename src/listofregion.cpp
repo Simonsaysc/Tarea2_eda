@@ -28,7 +28,7 @@ namespace image{
             delete current;
         }
     }//Destructor
-
+    NodeRegion* ListOfRegion::getHead(){return head;}
     void ListOfRegion::showRegions(){
         NodeRegion* current = head;
         while(current != nullptr){
