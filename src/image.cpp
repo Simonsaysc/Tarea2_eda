@@ -121,7 +121,7 @@ namespace image{
             for(int j = 0; j< width; j++){
                 if(getValue(i,j)==1 && !visitados[i][j]){
                     //si se encuentra un pixel no visitado que pertenece a la región
-                    Region* region = new Region(regionId, region->getPoints());
+                    Region* region = new Region(regionId);
                     exploreRegion(i,j,visitados, *region);//explorar región
                     regions.Insert(region);//agregar la region a la lista
                     regionId++;//incrementar el idx para la sgte region

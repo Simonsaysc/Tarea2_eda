@@ -9,6 +9,9 @@ int main(int nargs, char** vargs){
     std::cout << filename << std::endl;
     image::Image* im = nullptr;
     im = image::Image::readImage(filename);
+    image::ListOfRegion lr;
+    lr = im->getRegions();
+    lr.showRegions();
     im->show();
     return 0;
 }
