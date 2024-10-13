@@ -1,5 +1,9 @@
 #include "image/image.hpp"
+#include "image/noderegion.hpp"
+#include "image/point2D.hpp"
+#include "image/listofpoint2d.hpp"
 #include "image/region.hpp"
+#include "image/nodepoint2d.hpp"
 #include <fstream>
 #include <iostream>
 #include <cassert>
@@ -117,7 +121,7 @@ namespace image{
             for(int j = 0; j< width; j++){
                 if(getValue(i,j)==1 && !visitados[i][j]){
                     //si se encuentra un pixel no visitado que pertenece a la región
-                    Region* region = new Region(regionId);
+                    Region* region = new Region(regionId, region->getPoints());
                     exploreRegion(i,j,visitados, *region);//explorar región
                     regions.Insert(region);//agregar la region a la lista
                     regionId++;//incrementar el idx para la sgte region

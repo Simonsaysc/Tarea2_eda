@@ -97,19 +97,115 @@ CMakeFiles/imagepro.dir/src/image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/image.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/image.cpp -o CMakeFiles/imagepro.dir/src/image.cpp.s
 
+CMakeFiles/imagepro.dir/src/region.cpp.o: CMakeFiles/imagepro.dir/flags.make
+CMakeFiles/imagepro.dir/src/region.cpp.o: ../src/region.cpp
+CMakeFiles/imagepro.dir/src/region.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/imagepro.dir/src/region.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/region.cpp.o -MF CMakeFiles/imagepro.dir/src/region.cpp.o.d -o CMakeFiles/imagepro.dir/src/region.cpp.o -c /home/edauandes/Tarea2_eda/src/region.cpp
+
+CMakeFiles/imagepro.dir/src/region.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/region.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/region.cpp > CMakeFiles/imagepro.dir/src/region.cpp.i
+
+CMakeFiles/imagepro.dir/src/region.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/region.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/region.cpp -o CMakeFiles/imagepro.dir/src/region.cpp.s
+
+CMakeFiles/imagepro.dir/src/noderegion.cpp.o: CMakeFiles/imagepro.dir/flags.make
+CMakeFiles/imagepro.dir/src/noderegion.cpp.o: ../src/noderegion.cpp
+CMakeFiles/imagepro.dir/src/noderegion.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/imagepro.dir/src/noderegion.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/noderegion.cpp.o -MF CMakeFiles/imagepro.dir/src/noderegion.cpp.o.d -o CMakeFiles/imagepro.dir/src/noderegion.cpp.o -c /home/edauandes/Tarea2_eda/src/noderegion.cpp
+
+CMakeFiles/imagepro.dir/src/noderegion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/noderegion.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/noderegion.cpp > CMakeFiles/imagepro.dir/src/noderegion.cpp.i
+
+CMakeFiles/imagepro.dir/src/noderegion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/noderegion.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/noderegion.cpp -o CMakeFiles/imagepro.dir/src/noderegion.cpp.s
+
+CMakeFiles/imagepro.dir/src/listofregion.cpp.o: CMakeFiles/imagepro.dir/flags.make
+CMakeFiles/imagepro.dir/src/listofregion.cpp.o: ../src/listofregion.cpp
+CMakeFiles/imagepro.dir/src/listofregion.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/imagepro.dir/src/listofregion.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/listofregion.cpp.o -MF CMakeFiles/imagepro.dir/src/listofregion.cpp.o.d -o CMakeFiles/imagepro.dir/src/listofregion.cpp.o -c /home/edauandes/Tarea2_eda/src/listofregion.cpp
+
+CMakeFiles/imagepro.dir/src/listofregion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/listofregion.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/listofregion.cpp > CMakeFiles/imagepro.dir/src/listofregion.cpp.i
+
+CMakeFiles/imagepro.dir/src/listofregion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/listofregion.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/listofregion.cpp -o CMakeFiles/imagepro.dir/src/listofregion.cpp.s
+
+CMakeFiles/imagepro.dir/src/point2D.cpp.o: CMakeFiles/imagepro.dir/flags.make
+CMakeFiles/imagepro.dir/src/point2D.cpp.o: ../src/point2D.cpp
+CMakeFiles/imagepro.dir/src/point2D.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/imagepro.dir/src/point2D.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/point2D.cpp.o -MF CMakeFiles/imagepro.dir/src/point2D.cpp.o.d -o CMakeFiles/imagepro.dir/src/point2D.cpp.o -c /home/edauandes/Tarea2_eda/src/point2D.cpp
+
+CMakeFiles/imagepro.dir/src/point2D.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/point2D.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/point2D.cpp > CMakeFiles/imagepro.dir/src/point2D.cpp.i
+
+CMakeFiles/imagepro.dir/src/point2D.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/point2D.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/point2D.cpp -o CMakeFiles/imagepro.dir/src/point2D.cpp.s
+
+CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o: CMakeFiles/imagepro.dir/flags.make
+CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o: ../src/nodepoint2d.cpp
+CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o -MF CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o.d -o CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o -c /home/edauandes/Tarea2_eda/src/nodepoint2d.cpp
+
+CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/nodepoint2d.cpp > CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.i
+
+CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/nodepoint2d.cpp -o CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.s
+
+CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o: CMakeFiles/imagepro.dir/flags.make
+CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o: ../src/listofpoint2d.cpp
+CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o: CMakeFiles/imagepro.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o -MF CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o.d -o CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o -c /home/edauandes/Tarea2_eda/src/listofpoint2d.cpp
+
+CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edauandes/Tarea2_eda/src/listofpoint2d.cpp > CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.i
+
+CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edauandes/Tarea2_eda/src/listofpoint2d.cpp -o CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.s
+
 # Object files for target imagepro
 imagepro_OBJECTS = \
 "CMakeFiles/imagepro.dir/imagepro.cpp.o" \
-"CMakeFiles/imagepro.dir/src/image.cpp.o"
+"CMakeFiles/imagepro.dir/src/image.cpp.o" \
+"CMakeFiles/imagepro.dir/src/region.cpp.o" \
+"CMakeFiles/imagepro.dir/src/noderegion.cpp.o" \
+"CMakeFiles/imagepro.dir/src/listofregion.cpp.o" \
+"CMakeFiles/imagepro.dir/src/point2D.cpp.o" \
+"CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o" \
+"CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o"
 
 # External object files for target imagepro
 imagepro_EXTERNAL_OBJECTS =
 
 imagepro: CMakeFiles/imagepro.dir/imagepro.cpp.o
 imagepro: CMakeFiles/imagepro.dir/src/image.cpp.o
+imagepro: CMakeFiles/imagepro.dir/src/region.cpp.o
+imagepro: CMakeFiles/imagepro.dir/src/noderegion.cpp.o
+imagepro: CMakeFiles/imagepro.dir/src/listofregion.cpp.o
+imagepro: CMakeFiles/imagepro.dir/src/point2D.cpp.o
+imagepro: CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o
+imagepro: CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o
 imagepro: CMakeFiles/imagepro.dir/build.make
 imagepro: CMakeFiles/imagepro.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable imagepro"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edauandes/Tarea2_eda/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable imagepro"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/imagepro.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

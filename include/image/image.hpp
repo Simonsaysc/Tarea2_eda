@@ -4,6 +4,11 @@
 
 #pragma once
 #include "image/listofregion.hpp"
+#include "image/noderegion.hpp"
+#include "image/point2D.hpp"
+#include "image/listofpoint2d.hpp"
+#include "image/region.hpp"
+#include "image/nodepoint2d.hpp"
 #include <string>
 
 namespace image {

@@ -10,6 +10,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/edauandes/Tarea2_eda/imagepro.cpp" "CMakeFiles/imagepro.dir/imagepro.cpp.o" "gcc" "CMakeFiles/imagepro.dir/imagepro.cpp.o.d"
   "/home/edauandes/Tarea2_eda/src/image.cpp" "CMakeFiles/imagepro.dir/src/image.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/image.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/listofpoint2d.cpp" "CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/listofregion.cpp" "CMakeFiles/imagepro.dir/src/listofregion.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/listofregion.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/nodepoint2d.cpp" "CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/noderegion.cpp" "CMakeFiles/imagepro.dir/src/noderegion.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/noderegion.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/point2D.cpp" "CMakeFiles/imagepro.dir/src/point2D.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/point2D.cpp.o.d"
+  "/home/edauandes/Tarea2_eda/src/region.cpp" "CMakeFiles/imagepro.dir/src/region.cpp.o" "gcc" "CMakeFiles/imagepro.dir/src/region.cpp.o.d"
   )
 
 # Targets to which this target links.

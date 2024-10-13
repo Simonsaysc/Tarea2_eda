@@ -1,5 +1,5 @@
 #include "image/region.hpp"
-#include "nodepoint2d.hpp"
+#include "image/nodepoint2d.hpp"
 #include <fstream>
 #include <iostream>
 #include <cassert>

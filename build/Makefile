@@ -177,6 +177,150 @@ src/image.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/image.cpp.s
 .PHONY : src/image.cpp.s
 
+src/listofpoint2d.o: src/listofpoint2d.cpp.o
+.PHONY : src/listofpoint2d.o
+
+# target to build an object file
+src/listofpoint2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.o
+.PHONY : src/listofpoint2d.cpp.o
+
+src/listofpoint2d.i: src/listofpoint2d.cpp.i
+.PHONY : src/listofpoint2d.i
+
+# target to preprocess a source file
+src/listofpoint2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.i
+.PHONY : src/listofpoint2d.cpp.i
+
+src/listofpoint2d.s: src/listofpoint2d.cpp.s
+.PHONY : src/listofpoint2d.s
+
+# target to generate assembly for a file
+src/listofpoint2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/listofpoint2d.cpp.s
+.PHONY : src/listofpoint2d.cpp.s
+
+src/listofregion.o: src/listofregion.cpp.o
+.PHONY : src/listofregion.o
+
+# target to build an object file
+src/listofregion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/listofregion.cpp.o
+.PHONY : src/listofregion.cpp.o
+
+src/listofregion.i: src/listofregion.cpp.i
+.PHONY : src/listofregion.i
+
+# target to preprocess a source file
+src/listofregion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/listofregion.cpp.i
+.PHONY : src/listofregion.cpp.i
+
+src/listofregion.s: src/listofregion.cpp.s
+.PHONY : src/listofregion.s
+
+# target to generate assembly for a file
+src/listofregion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/listofregion.cpp.s
+.PHONY : src/listofregion.cpp.s
+
+src/nodepoint2d.o: src/nodepoint2d.cpp.o
+.PHONY : src/nodepoint2d.o
+
+# target to build an object file
+src/nodepoint2d.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.o
+.PHONY : src/nodepoint2d.cpp.o
+
+src/nodepoint2d.i: src/nodepoint2d.cpp.i
+.PHONY : src/nodepoint2d.i
+
+# target to preprocess a source file
+src/nodepoint2d.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.i
+.PHONY : src/nodepoint2d.cpp.i
+
+src/nodepoint2d.s: src/nodepoint2d.cpp.s
+.PHONY : src/nodepoint2d.s
+
+# target to generate assembly for a file
+src/nodepoint2d.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/nodepoint2d.cpp.s
+.PHONY : src/nodepoint2d.cpp.s
+
+src/noderegion.o: src/noderegion.cpp.o
+.PHONY : src/noderegion.o
+
+# target to build an object file
+src/noderegion.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/noderegion.cpp.o
+.PHONY : src/noderegion.cpp.o
+
+src/noderegion.i: src/noderegion.cpp.i
+.PHONY : src/noderegion.i
+
+# target to preprocess a source file
+src/noderegion.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/noderegion.cpp.i
+.PHONY : src/noderegion.cpp.i
+
+src/noderegion.s: src/noderegion.cpp.s
+.PHONY : src/noderegion.s
+
+# target to generate assembly for a file
+src/noderegion.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/noderegion.cpp.s
+.PHONY : src/noderegion.cpp.s
+
+src/point2D.o: src/point2D.cpp.o
+.PHONY : src/point2D.o
+
+# target to build an object file
+src/point2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/point2D.cpp.o
+.PHONY : src/point2D.cpp.o
+
+src/point2D.i: src/point2D.cpp.i
+.PHONY : src/point2D.i
+
+# target to preprocess a source file
+src/point2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/point2D.cpp.i
+.PHONY : src/point2D.cpp.i
+
+src/point2D.s: src/point2D.cpp.s
+.PHONY : src/point2D.s
+
+# target to generate assembly for a file
+src/point2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/point2D.cpp.s
+.PHONY : src/point2D.cpp.s
+
+src/region.o: src/region.cpp.o
+.PHONY : src/region.o
+
+# target to build an object file
+src/region.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/region.cpp.o
+.PHONY : src/region.cpp.o
+
+src/region.i: src/region.cpp.i
+.PHONY : src/region.i
+
+# target to preprocess a source file
+src/region.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/region.cpp.i
+.PHONY : src/region.cpp.i
+
+src/region.s: src/region.cpp.s
+.PHONY : src/region.s
+
+# target to generate assembly for a file
+src/region.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imagepro.dir/build.make CMakeFiles/imagepro.dir/src/region.cpp.s
+.PHONY : src/region.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +336,24 @@ help:
 	@echo "... src/image.o"
 	@echo "... src/image.i"
 	@echo "... src/image.s"
+	@echo "... src/listofpoint2d.o"
+	@echo "... src/listofpoint2d.i"
+	@echo "... src/listofpoint2d.s"
+	@echo "... src/listofregion.o"
+	@echo "... src/listofregion.i"
+	@echo "... src/listofregion.s"
+	@echo "... src/nodepoint2d.o"
+	@echo "... src/nodepoint2d.i"
+	@echo "... src/nodepoint2d.s"
+	@echo "... src/noderegion.o"
+	@echo "... src/noderegion.i"
+	@echo "... src/noderegion.s"
+	@echo "... src/point2D.o"
+	@echo "... src/point2D.i"
+	@echo "... src/point2D.s"
+	@echo "... src/region.o"
+	@echo "... src/region.i"
+	@echo "... src/region.s"
 .PHONY : help
 
 

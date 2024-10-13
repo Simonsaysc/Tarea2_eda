@@ -9,7 +9,8 @@ LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
 
-add_executable(imagepro imagepro.cpp src/image.cpp)
+add_executable(imagepro imagepro.cpp src/image.cpp src/region.cpp src/noderegion.cpp
+src/listofregion.cpp src/point2D.cpp src/nodepoint2d.cpp src/listofpoint2d.cpp)
 target_include_directories(imagepro PUBLIC ${PROJECT_SOURCE_DIR}/include)
 
 
